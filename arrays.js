@@ -40,5 +40,6 @@ function destructivelyAddElementToEndOfArray (arr, n) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (arr) {
-  return arr.shift();
+  arr.shift();
+  return arr;
 }
