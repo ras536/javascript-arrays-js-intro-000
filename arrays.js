@@ -29,3 +29,12 @@ function destructivelyRemoveElementFromEndOfArray (arr) {
 function removeElementFromEndOfArray (arr) {
   return arr.slice(0, arr.length - 1);
 }
+
+function addElementToEndOfArray (arr, n) {
+  var newArr;
+  return newArr = [...arr, n];
+}
+
+function destructivelyAddElementToEndOfArray (arr, n) {
+  return arr.push(n);
+}
