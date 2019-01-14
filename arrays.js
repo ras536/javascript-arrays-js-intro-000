@@ -14,11 +14,6 @@ function accessElementInArray(arr, n) {
   return arr[n];
 }
 
-function destructivelyRemoveElementFromEndOfArray (arr) {
-  arr.unshift();
-  return arr;
-}
-
 function removeElementFromBeginningOfArray (arr) {
   return arr.slice(1);
 }
